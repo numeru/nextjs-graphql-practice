@@ -1,0 +1,19 @@
+{
+  "name": "nextjs-graphql-practice",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "numeru",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "client",
+    "server"
+  ],
+  "scripts": {
+    "client": "yarn workspace client start",
+    "server": "yarn workspace server start"
+  },
+  "devDependencies": {
+    "typescript": "^4.3.5"
+  }
+}
